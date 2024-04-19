@@ -1,0 +1,70 @@
+.noMarg{
+  margin: 0px;
+}
+
+.noPadd{
+  padding: 0px;
+}
+
+.photoBox{
+  width: 100%;
+  padding: 10px;
+  /* background-color: #303030; */
+  background-color: #cccce5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.photoBox img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.arrowSlider{
+  background-color: green;
+  color: #fff;
+}
+
+.folder-box{
+  padding: 25px;
+}
+
+.title-bar{
+  background-color: #202020;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 7px 0px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.folder-bar{
+  width: 100%;
+  background-color: #202020;
+  border-radius: 0px 10px 0px 0px;
+  min-height: 20px;
+  padding: 4px
+}
+
+.bar-arrow{
+  display: inline-block;
+  background-color: #2fe32c;
+  color: #fff;
+  font-weight: 900;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  transition: background-color 500ms;
+}
+
+.bar-arrow:hover{
+  cursor: pointer;
+  background-color: #27b625;
+}
+
+.button-bar-box{
+  width: 60px;
+  margin-left: auto;
+  text-align: center;
+  /* margin-top: 5px; */
+}
